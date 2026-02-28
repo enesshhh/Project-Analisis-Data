@@ -7,16 +7,14 @@ pip install -r requirements.txt
 
 ## Setup Environment - Shell/Terminal
 ```
-mkdir analisis_data
 cd analisis_data
-pipenv install
-pipenv shell
 pip install pandas matplotlib seaborn streamlit babel
 ```
 
 ## Run streamlit app
 ```
-streamlit run dashboard/dashboard.py
+cd dashboard
+streamlit run dashboard.py
 ```
 
 ## Project Insights
