@@ -42,7 +42,7 @@ df_all = pd.read_csv(file_path)
 df_all['order_purchase_timestamp'] = pd.to_datetime(df_all['order_purchase_timestamp'])
 
 with st.sidebar:
-    st.image('https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Logo_OLX.png/2560px-Logo_OLX.png', width=200)
+    st.image('https://img.pikbest.com/png-images/ecommerce-logo-vector-graphics-element--e-commerce-logo-icon-design-online-store-logo-icon_1726010.png!w700wp', width=200)
 
     min_date = df_all['order_purchase_timestamp'].min()
     max_date = df_all['order_purchase_timestamp'].max()
