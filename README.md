@@ -19,5 +19,5 @@ streamlit run dashboard.py
 
 ## Project Insights
 - Kategori produk dengan pendapatan tertinggi.
-- Perkembangan penjualan E-Commerce dari waktu ke waktu.
+- Perkembangan penjualan E-Commerce dari tahun 2016-2018.
 - Tingkat kepuasan pelanggan berdasarkan durasi pengiriman.
