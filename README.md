@@ -19,7 +19,7 @@ pip install pandas matplotlib seaborn streamlit babel
 streamlit run dashboard/dashboard.py
 ```
 
-## Project Insights (Optional)
+## Project Insights
 - Kategori produk dengan pendapatan tertinggi.
 - Tren penjualan E-Commerce dari waktu ke waktu.
 - Tingkat kepuasan pelanggan berdasarkan skor ulasan.
