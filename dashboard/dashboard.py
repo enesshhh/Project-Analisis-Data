@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
 import streamlit as st
+import os
 from babel.numbers import format_currency
 
 sns.set(style='dark')
@@ -35,7 +36,9 @@ def create_df_rfm(df):
     df_rfm.drop('max_order_timestamp',axis=1, inplace=True)
     return df_rfm
 
-df_all = pd.read_csv('dashboard\main_data.csv')
+current_dir = os.path.dirname(os.path.abspath(__file__))
+file_path = os.path.join(current_dir, "main_data.csv")
+df_all = pd.read_csv(file_path)
 df_all['order_purchase_timestamp'] = pd.to_datetime(df_all['order_purchase_timestamp'])
 
 with st.sidebar:
